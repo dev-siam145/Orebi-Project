@@ -8,16 +8,15 @@ import { menuData } from "../../dummyData/menuData";
 const Navbar = () => {
   return (
     <header>
-      <Container>
-        <div className="bg-red-600">
-          <Image src={logo} />
-          <ul>
+      <Container className={"py-8"}>
+        <div className="flex items-center justify-between">
+          <Link to="/">
+            <Image src={logo} />
+          </Link>
+          <ul className="flex items-center gap-10">
             {menuData.map((item, index) => (
               <li key={index}>
-                <Link to={item.url}>
-                {item.label}
-
-                </Link>
+                <Link to={item.url}>{item.label}</Link>
               </li>
             ))}
           </ul>
