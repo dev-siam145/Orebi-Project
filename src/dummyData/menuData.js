@@ -1,0 +1,22 @@
+export const menuData=[
+    {
+        id:1,
+        label:"Home",
+        url:"/"
+    },
+    {
+        id:2,
+        label:"about",
+        url:"/shop"
+    },
+    {
+        id:3,
+        label:"contact",
+        url:"/contact"
+    },
+    {
+        id:4,
+        label:"journal",
+        url:"/journal"
+    }
+]
