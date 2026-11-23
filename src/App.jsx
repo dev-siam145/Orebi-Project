@@ -3,12 +3,14 @@ import HomeIndex from "./pages/home/HomeIndex";
 import ShopIndex from "./pages/shop/ShopIndex";
 import ContactIndex from "./pages/contact/ContactIndex";
 import RootLayouts from "./components/layouts/RootLayouts";
+import CustomError from "./components/common/CustomError";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayouts/>}>
     <Route index element={<HomeIndex/>} />
     <Route path="/contact" element={<ContactIndex/>} />
     <Route path="/shop" element={<ShopIndex/>}  />
+    <Route path="*" element={<CustomError/>}  />
   </Route>
 ));
 

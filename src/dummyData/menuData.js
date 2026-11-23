@@ -6,16 +6,21 @@ export const menuData=[
     },
     {
         id:2,
-        label:"about",
+        label:"shop",
         url:"/shop"
     },
     {
         id:3,
-        label:"contact",
-        url:"/contact"
+        label:"about",
+        url:"/about"
     },
     {
         id:4,
+        label:"contacts",
+        url:"/contacts"
+    },
+    {
+        id:5,
         label:"journal",
         url:"/journal"
     }

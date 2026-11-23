@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@theme {
+  --font-primary: "DM Sans", sans-serif; 
+    --color-black1: #262626;
+    --color-gray1: #767676;
+    --color-gray2: #F0F0F0;
+
+}
